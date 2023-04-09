@@ -1,0 +1,16 @@
+@UTF-8
+
+*{
+    
+}
+main{
+    background-color: rgb(188, 206, 245);
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10 10 10 gray;
+}
+h1, h2{
+    text-align: center;
+}

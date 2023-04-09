@@ -1,0 +1,88 @@
+@charset "UTF-8"
+:root{
+    --font-destaque: arial
+}
+
+
+body{
+    background-image: url(../imagens/jho.jpg);
+}
+
+header{
+    background-image: linear-gradient(to right, #37255479, #c2cae883);  
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+header > p{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+main{
+    background-color:#41453563;   
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+main > ul{
+    columns: 2
+
+}
+p, li{
+color: #C2CAE8;
+}
+nav > a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 30px;
+    transition-duration: 1s;
+    border-radius: 5px;
+
+}
+nav > a:hover{
+    color:#f19a3e;
+    background-color: #9399af;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    text-align: center;
+    padding: 1px;
+}
+#teste{
+    text-align: center;
+}
+footer > p{
+    margin: 0px;
+}
+div.video{
+    margin-bottom: 30px;
+    
+}
+div{
+    text-align: center;
+}
+div > li{
+    text-align: left;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: whitesmoke;
+    background-color: rgba(202, 126, 34, 0.418);
+    width: 300px;
+
+}
+h1, h2{
+    text-align: center;
+    color: #F19A3E;
+}

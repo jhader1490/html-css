@@ -1,0 +1,13 @@
+@charset
+*
+body{
+    background-image: linear-gradient(to right, #668E7F, #E2EBF0);
+}
+main {
+    background-color: whitesmoke;
+    width: 600px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10 10 10 grey;
+}
