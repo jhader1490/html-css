@@ -7,31 +7,57 @@
 header{
     background-color: black;
     color: white;
+    padding: 1px;
+    border-radius: 5px;
     }
 
 header > h1, p{
     text-align: center;
 }
 
+nav > a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 30px;
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    color: blue;
+    
+}
+
+
 main{
-    background-color: #6586cea1;
+    background-color: #000000c5;
     width: 1000px;
     margin: auto;
-    padding: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
 
 }
 
 main > h2{
     text-align: center;
+    
 }
 
 main > p{
     text-align: justify;
-
-
 }
 
 body{ 
-    background-image: ;    
+    background-image: url(../Paulo/imagem/poa.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
